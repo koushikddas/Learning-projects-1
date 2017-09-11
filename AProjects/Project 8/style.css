@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+.logo-nav{
+    width:100%;
+}
+.fpad{
+    padding:.8rem;
+}
+.logo-nav h1{
+    display: inline-block;
+    float:left;
+    border:2px solid #222;
+    margin-left: .9rem;
+    margin-top: 1rem;
+    animation: bg-change 7s ease ;
+}
+
+.logo-nav nav{
+    float: right;
+    margin-top: 1rem;
+    margin-right: 1.2rem;
+    transition: all 0.5s;
+}
+.logo-nav nav a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    color:#222;
+    line-spacing:2px;
+    margin-left:4px;
+
+}
+.logo-nav nav a:hover{
+    color:#3a3427;
+    border-bottom: 2px solid #3a3427;
+}
+header{
+    background: linear-gradient(rgba(175,45,58,.4),rgba(200,98,26,.4)) no-repeat center scroll;
+    background-size: cover;
+    width:100%;
+    height:35rem;
+    box-shadow: 4px 4px 4px #222;
+    transition: all 0.6s;
+    border-bottom: 1px solid tomato;
+}
+@keyframes bg-change {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+.cb-1{
+    background: tomato no-repeat center;
+    background-size: cover;
+    width:98%;
+    height: 20rem;
+    transform: skewX(-9deg);
+}
+.cb-1 h3{
+    position: absolute;
+    top:49%;
+    left:49%;
+    border:2px groove rebeccapurple;
+    -webkit-border-radius: 10rem;
+    -moz-border-radius: 10rem;
+    border-radius: 10rem;
+    font-size: 1.5rem;
+}
+.cb-2 h3{
+    position: absolute;
+    top:49%;
+    left:49%;
+    border:2px groove rebeccapurple;
+    -webkit-border-radius: 10rem;
+    -moz-border-radius: 10rem;
+    border-radius: 10rem;
+    font-size: 1.5rem;
+}
+.cb-1 h3:hover{
+    color:white;
+    border:2px groove #8a1406;
+    -webkit-animation: bg-change 8s smooth infinite;
+    -o-animation: bg-change 8s smooth infinite;
+    animation: bg-change 8s smooth infinite;
+}
+.cb-2{
+    background:deepskyblue no-repeat center;
+    background-size: cover;
+    width:98%;
+    height: 20rem;
+    transform: skewX(-7deg);
+}

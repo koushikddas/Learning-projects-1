@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+
+
+</head>
+<body>
+<h2 style="text-align: center;color:palevioletred">Hello Guys</h2>
+
+<div class="row">
+    <div class="input-field">
+        <input id="todo-text" type="text">
+
+        <label for="todo-text" id="l-text">Type Your To Do Here</label>
+
+    </div>
+</div>
+
+<div id="app"><h2 style="text-align: center;color: deepskyblue">{{message}}</h2></div>
+
+<div>
+    <h4 id="app3" v-if="seen">Well You Can See Me Now But I Can Be Hidden Out</h4>
+</div>
+
+<div id="app4">
+    <ol>
+    <li v-for="todo in todos">
+        {{todo.text}}
+    </li>
+
+    </ol>
+</div>
+<br>
+
+
+<div id="app5">
+    <p>{{message}}</p>
+    <button v-on:click="reverseMessage">Reverse Message</button>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Page Background -->
+<div class="page-bg"></div>
+<!-- Compiled and minified JavaScript -->
+<script src="https://unpkg.com/vue"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

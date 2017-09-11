@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    border: 20px solid #bdc3c7;
+    padding: 20px;
+    width: 80%;
+    margin: 20px auto;
+    max-width: 750px;
+}
+h2{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+}
+p{
+    font-family: 'Lato', sans-serif;
+}
+/*f global styles end here dead end*/
+
+.qoute{
+    border-left: 5px solid #bdc3c7;
+    padding-left: 5px;
+    margin: 5px 0 5px 0;
+    font-family: 'Quicksand', sans-serif;
+}
+.date{
+    color: #3498db;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    width:20%;
+    border-bottom: 2px inset #3498db;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,21 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ul{
+	list-style-type: none;
+}
+body{
+	background: tomato;
+}
+.to-do{
+	position: absolute;
+	width:10%;
+	bottom:40%;
+	left:40%;
+	border: 2px solid deepskyblue;
+}
+.to-do h1{
+	border: 2 px solid #222;
+}

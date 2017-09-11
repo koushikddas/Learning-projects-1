@@ -1,0 +1,63 @@
+body {
+    font-family: "Dosis";
+}
+
+.page-bg {
+    background: url('img1.jpeg');
+    background-size: cover;
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+    filter: blur(1px);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.b1{
+    position: relative;
+}
+.b1 img{
+    position: absolute;
+    top: 10px;
+    left:10px;
+    filter:grayscale(100%);
+}
+.b1 a{
+    display: inline-block;
+    position: absolute;
+    top:102px;
+    left:44px;
+}
+.b2{
+    position: absolute;
+}
+.b2 h2{
+    position: relative;
+    top:225px;
+    left:51%;
+    display:inline-block;
+    background-color: #1eb685;
+    border-radius: 12px;
+    box-shadow: 10px;
+}
+#content{
+    z-index: 99999;
+}
+#message{
+    width:100%;
+    height:250px;
+    background: deeppink;
+    color: #000;
+    text-align: center;
+}
+#homearea{
+    width:100%;
+    height:150px;
+    background: deepskyblue;
+    color: #000;
+    text-align: center;
+}

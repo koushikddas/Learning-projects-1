@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.classsy li{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}

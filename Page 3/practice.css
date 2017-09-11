@@ -1,0 +1,51 @@
+/*Global Styles*/
+ul{
+  list-style:none;
+}
+li a{
+  text-decoration:none;
+}
+/*end */
+
+
+body{
+  background:url(http://www.laesceramica.de/q3d/textures/walls/escheWood.jpg);
+  font-family: 'Raleway', sans-serif;
+}
+
+.header{
+  background:deepskyblue;
+}
+.header h3{
+  color:tomato;
+  text-align:center;
+}
+.con1 ul{
+  display:flex;
+  flex-flow:row wrap;
+  background:tomato;
+  list-style:none;
+  justify-content:space-between;
+}
+.con1 ul li a{
+  text-decoration:none;
+  display:block;
+  padding:2em;
+  color:white;
+
+}
+.con1 ul li a:hover{
+  background:deepskyblue;
+}
+.second{
+display:flex;
+  flex-flow:row wrap;
+  justify-content:flex-end;
+  background:rgba(255,255,255,.4)
+}
+.hot ul li a{
+  display:block;
+  color:white;
+  padding:1.1em;
+
+

@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.clearfix:after{
+    content: "";
+    display:table;
+    clear: both;
+}
+body{
+    font-family: 'Dosis', sans-serif;
+}
+p{
+    font-size: 20px;
+    color: #3a3427;
+    text-align: justify;
+}
+h1{
+    color: #00cccc;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h2{
+    color: #1eb685;
+    margin-bottom: 10px;
+}
+.main-text{
+    color: salmon;
+    margin-bottom: 15px;n
+}
+.author-text{
+    font-size: 22px;
+    float: left;
+    margin-top:35px;
+    margin-left:10px;
+
+}
+.container{
+    width:1140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+.blog-post{
+    width:75%;
+    float: left;
+    padding: 5px;
+    position: relative;
+
+}
+.other-posts{
+    width:25%;
+    float: left;
+    padding:3px;
+}
+.author-box{
+    margin-top: 10px;
+    border-top:2px solid grey;
+    padding-top:10px;
+}
+.other{
+    margin-bottom:50px;
+}
+.author-box img{
+    border-radius: 50%;
+    border:2px solid deepskyblue;
+    float: left;
+}
+.blog-post img{
+    height:250px;
+    width:auto;
+    margin-left:20%;
+}
+.date{
+    position: absolute;
+    top:10px;
+    right:30px;
+
+}

@@ -1,0 +1,15 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{
+    background: #222;
+}
+header h1{
+    color:deepskyblue;
+}
+header nav{
+    margin-right:.5rem;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Responsive Website</title>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Vertical Sidebar -->
+<nav class="side-navbar">
+<ul>
+    <li><a href="index.html">Home</a></li>
+</ul>
+</nav>
+<!-- Vertical Sidebar -->
+<!-- Page View-->
+<main class="page-view">
+    <header>
+        <div class="menu">
+            <span class="fa fa-list"></span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#"><span class="fa fa-user"></span> Login</a></li>
+                <li><a href="#"><span class="fa fa-unlock"></span> Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <section class="container">
+
+    </section>
+</main>
+<!-- Page View-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Script Links-->
+<script src="script.js"></script>
+</body>
+</html>
+<!--JQuery CDN-->
+<script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function(){
+     $('.menu').click(function () {
+       $('.side-navbar').toggleClass('active-navbar');
+       $('.page-view').toggleClass('shift-page');
+     })
+        
+    })
+</script>
